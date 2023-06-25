@@ -1,7 +1,7 @@
 package FountainOfObjects.Message;
 
 import FountainOfObjects.Player.Player;
-import FountainOfObjects.Room.Room;
+import FountainOfObjects.Grid.Room.Room;
 public class Message {
     String[] message;
     AnsiColor[] colors;

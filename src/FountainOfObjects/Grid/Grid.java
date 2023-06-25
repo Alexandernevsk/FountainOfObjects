@@ -1,9 +1,8 @@
 package FountainOfObjects.Grid;
 
 import FountainOfObjects.Controller.Coordinate;
-import FountainOfObjects.Room.Fountain;
-import FountainOfObjects.Room.Pit;
-import FountainOfObjects.Room.Room;
+import FountainOfObjects.Grid.Room.Fountain;
+import FountainOfObjects.Grid.Room.Room;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -33,6 +32,18 @@ public class Grid {
     private int height;
     private Size size;
     private Random random = new Random();
+
+    public Coordinate getPit() {
+        return pit;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
 
     //Custom Map
     public Grid(Coordinate entrance, Coordinate exit, Coordinate fountain, int width, int height) {

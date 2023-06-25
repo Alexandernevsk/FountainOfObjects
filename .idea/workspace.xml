@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b8aac54-ad64-4a1a-827b-ddb78b9a1371" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FountainOfObjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Grid/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Message/AnsiColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Message/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/East.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/North.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/OffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/OnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/PlayerCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/South.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/West.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/PlayerVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Room/Fountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Room/Pit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Room/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Test.java" afterDir="false" />
+    <list default="true" id="3b8aac54-ad64-4a1a-827b-ddb78b9a1371" name="Changes" comment="Not done">
+      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Commands/East.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Commands/North.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Commands/PlayerCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Commands/South.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Commands/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Commands/West.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Grid/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Grid/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/East.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/North.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/OffCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/OnCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/PlayerCommands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/South.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Commands/West.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Player/PlayerVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Player/PlayerVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Room/Fountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Grid/Room/Fountain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Room/Pit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Grid/Room/Pit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FountainOfObjects/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FountainOfObjects/Grid/Room/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

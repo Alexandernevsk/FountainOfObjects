@@ -1,9 +1,9 @@
 package FountainOfObjects.Player;
-import FountainOfObjects.Room.Fountain;
-import FountainOfObjects.Room.Pit;
+import FountainOfObjects.Grid.Room.Fountain;
+import FountainOfObjects.Grid.Room.Pit;
 
 public interface PlayerVisitor {
-    void visit (Fountain fountain);
-    void visit (Pit pit);
+    Fountain visit (Fountain fountain);
+    Pit visit (Pit pit);
 }
 

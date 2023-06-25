@@ -1,4 +1,4 @@
-package FountainOfObjects.Room;
+package FountainOfObjects.Grid.Room;
 
 import FountainOfObjects.Player.PlayerVisitor;
 
